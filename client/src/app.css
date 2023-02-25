@@ -1,0 +1,37 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    border: 1px solid #403b3b;
+    padding: 10px;
+    margin: 10vh auto;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.messages {
+    flex: 1;
+}
+
+.input-container {
+    scroll-behavior: smooth;
+    border: 1px solid #403b3b;
+    display: flex;
+    margin-top: 2rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: aqua;
+    border: 1px solid #403b3b;
+    padding: 10px;
+}
